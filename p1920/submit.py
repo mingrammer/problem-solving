@@ -1,9 +1,6 @@
-import sys
+n = raw_input()
+ns = set(raw_input().split())
+m = raw_input()
+ms = raw_input().split()
 
-n = int(raw_input())
-n_arr = set(map(int, raw_input().split()))
-m = int(raw_input())
-m_arr = map(int, raw_input().split())
-
-for i in range(0, m):
-    print 1 if m_arr[i] in n_arr else 0
+for e in ms: print int(e in ns)
