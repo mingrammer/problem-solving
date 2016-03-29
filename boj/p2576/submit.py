@@ -1,3 +1,13 @@
-o = [i for i in [input() for _ in range(7)] if i%2==1]
-print sum(o)
-print min(o)
+nums = []
+
+for i in range(7):
+   num = input()
+
+   if num % 2 == 1:
+        nums.append(num)
+
+if nums:
+    print sum(nums)
+    print min(nums)
+else:
+    print -1
