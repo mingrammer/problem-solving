@@ -9,7 +9,6 @@ thousand = 8
 and_letter = 3
 
 sum_len = 0
-
 sum_len += sum(one_digit)
 sum_len += sum(ten_to_twenty)
 sum_len += 10*sum(two_digit) + 8*sum(one_digit)
