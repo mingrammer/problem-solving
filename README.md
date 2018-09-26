@@ -1,6 +1,4 @@
 # Problem Solving
 
-> Personal repository for problem solving
-
-## BOJ (ACM-ICPC)
+## BOJ
 https://www.acmicpc.net/user/ming
