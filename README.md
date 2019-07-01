@@ -20,4 +20,4 @@ https://code.google.com/codejam
 
 ## GeeksforGeeks
 
-https://www.geeksforgeeks.org/
+https://www.geeksforgeeks.org
