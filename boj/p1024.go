@@ -10,7 +10,6 @@ import (
 func main() {
 	var n, l float64
 	fmt.Scanln(&n, &l)
-
 	for k := l; ; k++ {
 		if k > 100 {
 			fmt.Print(-1)
