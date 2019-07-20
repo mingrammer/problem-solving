@@ -7,12 +7,12 @@ type ListNode struct {
 
 func reverseList(head *ListNode) *ListNode {
 	var rev *ListNode
+	cur := head
 	for head != nil {
-		rev = &ListNode{
-			Val:  head.Val,
-			Next: rev,
-		}
 		head = head.Next
+		cur.Next = rev
+		rev = cur
+		cur = head
 	}
 	return rev
 }
