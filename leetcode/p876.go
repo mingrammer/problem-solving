@@ -12,8 +12,8 @@ func middleNode(head *ListNode) *ListNode {
 		head = head.Next
 		i++
 		if j*2 < i {
-			j++
 			middle = middle.Next
+			j++
 		}
 	}
 	return middle
